@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/2761991.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Prompt", sans-serif;
+    .navbar {
+        border-bottom: 3px solid white;
+        height: 100px;
+        background: rgba(0, 0, 0, 0.3);
+        //rgba(255,255,255,0,5);
+    }
+    .collapse {
+        float: right;
+        margin-right: 100px;
+    }
+    .nav-link {
+        padding-right: 25px;
+        font-family: "Prompt", bold;
+        color: #01ffb3;
+        font-size: 16pt;
+        margin: auto;
+    }
+
+    h1 {
+        color: #00ffb2;
+        text-align: center;
+        margin: auto;
+        font-family: "Prompt", bold;
+    }
+    .container {
+        background: linear-gradient(#2458a6, #001f4e);
+        border-radius: 25px;
+        height: auto;
+        margin-top: 60px;
+        padding: 50px;
+    }
+
+    .btn-success {
+        background-color: #001f4e !important;
+        border-radius: 25px;
+        width: 100px;
+        border: none;
+        margin-top: 25px;
+        font-family: "Prompt", sans-serif;
+        height: 50px;
+    }
+    .error {
+        color: red;
+    }
+    label {
+        color: #01ffb3;
+        margin-top: 20px;
+    }
+    .form-control {
+        color: white;
+        background-color: #001f4e;
+        border-radius: 25px;
+        border: none;
+        height: 50px;
+        font-family: "Prompt", sans-serif;
+    }
+}
